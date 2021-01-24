@@ -3,9 +3,15 @@ import PropTypes from 'prop-types'
 const Header = ({ title }) => {
   return (
     <header>
-      <h1 style={{color: 'red', backgroundColor: 'black'}} >{title}</h1>
+      <h1 style={headStyle}>{title}</h1>
     </header>
   )
+}
+
+// styles
+const headStyle = {
+  color: 'red',
+  backgroundColor: 'black',
 }
 
 // default props
