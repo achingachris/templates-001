@@ -25,6 +25,11 @@ const App = () => {
     },
   ])
 
+  // Add Tasks
+  const addTask = task => {
+    console.log(task);
+  }
+
   // delete task
   const deleteTask = id => {
     // console.log('delete', id);
